@@ -189,13 +189,13 @@ export default function MooreLanding() {
           <div>
             <h2 className="text-2xl font-bold">Contact — Join the pilot or collaborate</h2>
             <p className="mt-4 text-slate-600">
-              We’re looking for pilot partners, utility contacts, and advisors. Tell us about your project and we’ll follow up.
+              We&apos;re looking for pilot partners, utility contacts, and advisors. Tell us about your project and we&apos;ll follow up.
             </p>
 
             <div className="mt-6 space-y-4 text-sm text-slate-600">
               <div className="flex items-start gap-3"><Mail size={18} /><div>hello@mooreenergy.com — general</div></div>
               <div className="flex items-start gap-3"><Phone size={18} /><div>+1 (555) 123‑4567</div></div>
-              <div className="flex items-start gap-3"><MapPin size={18} /><div>Based in Chicago — Northwestern affiliation</div></div>
+              <div className="flex items-start gap-3"><MapPin size={18} /><div>Based in Chicago </div></div>
             </div>
           </div>
 
@@ -240,7 +240,7 @@ export default function MooreLanding() {
             {status === 'error' && <div className="text-sm text-red-600">Something went wrong. Try again or email hello@mooreenergy.com.</div>}
             <noscript>
               <div className="text-xs text-slate-500">
-                If this form doesn't submit, email us at <a href="mailto:hello@mooreenergy.com">hello@mooreenergy.com</a>
+                If this form doesn&apos;t submit, email us at <a href="mailto:hello@mooreenergy.com">hello@mooreenergy.com</a>
               </div>
             </noscript>
           </form>
@@ -251,7 +251,7 @@ export default function MooreLanding() {
       <footer className="border-t mt-12 border-slate-100">
         <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between text-sm text-slate-500">
           <div>© {new Date().getFullYear()} Moore Energy — All rights reserved</div>
-          <div className="mt-3 md:mt-0">Made by Kiran • Northwestern Garage residency application</div>
+          <div className="mt-3 md:mt-0">Made by Kiran </div>
         </div>
       </footer>
     </div>

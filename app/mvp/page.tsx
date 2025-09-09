@@ -12,8 +12,8 @@ export default function MVP() {
         </h1>
 
         <p className="text-lg text-slate-600 leading-relaxed mb-12 text-center">
-          We're moving fast to validate our approach with developers and partners.
-          Here’s what’s coming next:
+          We&apos;re moving fast to validate our approach with developers and partners.
+          Here&apos;s what&apos;s coming next:
         </p>
 
         <div className="space-y-10 relative border-l-2 border-slate-200 pl-6">
@@ -52,7 +52,7 @@ export default function MVP() {
             <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-slate-400"></span>
             <h2 className="text-xl font-semibold">Future — AI-Powered Grid Optimization</h2>
             <p className="text-slate-600 mt-2">
-              Long-term, we’re developing predictive modeling and optimization tools that
+              Long-term, we&apos;re developing predictive modeling and optimization tools that
               help maximize renewable penetration while keeping costs low.
             </p>
           </div>
