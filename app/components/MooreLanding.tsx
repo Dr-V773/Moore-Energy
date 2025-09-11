@@ -72,7 +72,7 @@ export default function MooreLanding() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.25 }}
           >
-            <a href="#contact" className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-4 py-2 rounded-xl">Get in touch</a>
+            <a href="#contact" className="bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition">Get in touch</a>
             <a className="inline-flex items-center px-4 py-2 rounded-xl border border-slate-200 text-sm" href="#mvp">See MVP</a>
           </motion.div>
           <div className="mt-8 grid grid-cols-3 gap-4 text-sm text-slate-500">
@@ -86,7 +86,7 @@ export default function MooreLanding() {
             </div>
             <div>
               <div className="font-medium text-slate-900">Goal</div>
-              <div>Garage residency & pilot partners</div>
+              <div>pilot partners</div>
             </div>
           </div>
         </section>

@@ -2,6 +2,14 @@
 import Link from "next/link";
 import Image from "next/image";
 
+<Image 
+  src="/logo.png" 
+  alt="Moore Energy Logo" 
+  width={400} 
+  height={400} 
+  className="mx-auto"
+/>
+
 export default function Navbar() {
   return (
     <header className="border-b border-slate-200 bg-white">

@@ -18,7 +18,7 @@ export default function MVP() {
 
         <div className="space-y-10 relative border-l-2 border-slate-200 pl-6">
           {/* Step 1 */}
-          <div className="relative">
+          <div className="relative space-x-4">
             <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-green-500"></span>
             <h2 className="text-xl font-semibold">Phase 1 — Feasibility Engine (In Progress)</h2>
             <p className="text-slate-600 mt-2">
@@ -28,7 +28,7 @@ export default function MVP() {
           </div>
 
           {/* Step 2 */}
-          <div className="relative">
+          <div className="relative space-x-4">
             <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-blue-500"></span>
             <h2 className="text-xl font-semibold">Phase 2 — Developer Dashboard</h2>
             <p className="text-slate-600 mt-2">
@@ -38,7 +38,7 @@ export default function MVP() {
           </div>
 
           {/* Step 3 */}
-          <div className="relative">
+          <div className="relative space-x-4">
             <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-purple-500"></span>
             <h2 className="text-xl font-semibold">Phase 3 — Utility Collaboration</h2>
             <p className="text-slate-600 mt-2">
@@ -48,7 +48,7 @@ export default function MVP() {
           </div>
 
           {/* Step 4 */}
-          <div className="relative">
+          <div className="relative space-x-4">
             <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-slate-400"></span>
             <h2 className="text-xl font-semibold">Future — AI-Powered Grid Optimization</h2>
             <p className="text-slate-600 mt-2">
