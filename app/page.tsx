@@ -1,6 +1,6 @@
 // app/page.tsx
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +10,14 @@ export default function Home() {
 
       {/* Hero Section */}
       <main className="flex-grow flex flex-col items-center justify-center text-center px-6 py-24">
-        <Image src="/logo.png" alt="Moore Energy Logo" width={120} height={120} />
+      <Image 
+  src="/logo.png" 
+  alt="Moore Energy Logo" 
+  width={400} 
+  height={400} 
+  className="mx-auto"
+/>
+
         <h1 className="mt-6 text-4xl md:text-5xl font-extrabold text-slate-900">
           Reimagining Grid Interconnection
         </h1>
@@ -22,9 +29,13 @@ export default function Home() {
           <a href="/about" className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-4 py-2 rounded-xl">
             Learn More
           </a>
-          <a href="/contact" className="inline-flex items-center px-4 py-2 rounded-xl border border-slate-200 text-sm">
-            Get in Touch
-          </a>
+          <a 
+  href="/contact" 
+  className="inline-flex items-center px-4 py-2 rounded-xl bg-slate-800 text-white text-sm hover:bg-slate-900"
+>
+  Get in Touch
+</a>
+
         </div>
       </main>
 

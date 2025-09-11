@@ -2,21 +2,14 @@
 import Link from "next/link";
 import Image from "next/image";
 
-<Image 
-  src="./logo.png" 
-  alt="Moore Energy Logo" 
-  width={400} 
-  height={400} 
-  className="mx-auto"
-/>
-
 export default function Navbar() {
   return (
     <header className="border-b border-slate-200 bg-white">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.png" alt="Moore Energy Logo" width={40} height={40} />
+        <Link href="/" className="flex items-center gap-3">
+          {/* Use public/logo.png — note the leading slash */}
+          <Image src="/logo.png" alt="Moore Energy Logo" width={48} height={48} />
           <span className="font-semibold text-lg text-slate-900">Moore Energy</span>
         </Link>
 
