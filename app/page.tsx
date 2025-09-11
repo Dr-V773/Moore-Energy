@@ -13,7 +13,7 @@ export default function Home() {
   {/* Background image */}
   <div className="absolute inset-0 -z-10">
     <Image 
-      src="/solar.jpg" 
+      src="/solar.png" 
       alt="Solar panels background" 
       fill 
       priority
