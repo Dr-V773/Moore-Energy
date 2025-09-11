@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 <Image 
-  src="/logo.png" 
+  src="./logo.png" 
   alt="Moore Energy Logo" 
   width={400} 
   height={400} 
