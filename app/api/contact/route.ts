@@ -2,7 +2,7 @@ export const config = {
     runtime: "node",
   }; // Use Node.js runtime instead of Edge
 
-const nodemailer = require("nodemailer");
+  import nodemailer from "nodemailer";
 
 
 export async function POST(req: Request) {
