@@ -56,7 +56,7 @@ export default function MooreLanding() {
             transition={{ delay: 0.05 }}
             className="text-4xl md:text-5xl font-extrabold leading-tight"
           >
-            Reimagining how grid-connected projects interconnect — faster, cleaner, cheaper.
+            Reimagining how grid-connected projects interconnect - faster, cleaner, cheaper.
           </motion.h1>
           <motion.p
             initial={{ y: 20, opacity: 0 }}

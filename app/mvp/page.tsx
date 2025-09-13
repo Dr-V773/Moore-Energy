@@ -12,7 +12,6 @@ export default function MVP() {
         </h1>
 
         <p className="text-lg text-slate-600 leading-relaxed mb-12 text-center">
-          We&apos;re moving fast to validate our approach with developers and partners.
           Here&apos;s what&apos;s coming next:
         </p>
 
@@ -21,7 +20,7 @@ export default function MVP() {
           <div className="relative">
             <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-green-500"></span>
             <h2 className="ml-6 text-xl font-semibold relative z-10">
-              Phase 1 — Feasibility Engine (In Progress)
+              Phase 1 - Feasibility Engine (In Progress)
             </h2>
             <p className="ml-6 text-slate-600 mt-2">
               Rapid direct-wire feasibility checks for distributed projects. Developers
@@ -33,7 +32,7 @@ export default function MVP() {
           <div className="relative">
             <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-blue-500"></span>
             <h2 className="ml-6 text-xl font-semibold relative z-10">
-              Phase 2 — Developer Dashboard
+              Phase 2 - Developer Dashboard
             </h2>
             <p className="ml-6 text-slate-600 mt-2">
               A centralized hub for project status, queue modeling, and automated
@@ -45,7 +44,7 @@ export default function MVP() {
           <div className="relative">
             <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-purple-500"></span>
             <h2 className="ml-6 text-xl font-semibold relative z-10">
-              Phase 3 — Utility Collaboration
+              Phase 3 - Utility Collaboration
             </h2>
             <p className="ml-6 text-slate-600 mt-2">
               Shared tools for utilities to review, approve, and provide feedback — cutting
@@ -57,7 +56,7 @@ export default function MVP() {
           <div className="relative">
             <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-slate-400"></span>
             <h2 className="ml-6 text-xl font-semibold relative z-10">
-              Future — AI-Powered Grid Optimization
+              Future - AI-Powered Grid Optimization
             </h2>
             <p className="ml-6 text-slate-600 mt-2">
               Long-term, we&apos;re developing predictive modeling and optimization tools that
